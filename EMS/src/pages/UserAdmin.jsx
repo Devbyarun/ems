@@ -2,12 +2,16 @@ import React from "react";
 import "../pages/UserAdmin.css";
 import bg2 from "../assets/bg/bg2.png";
 import ShareIcon from "../assets/icons/UploadIcon.svg";
+import Nav from "../components/Nav";
 
 const UserAdmin = () => {
   return (
     <>
-      <div className="container-fluid py-5">
-        <div className="container">
+      <div className="container-fluid px-0 bg-light">
+        <div>
+          <Nav />
+        </div>
+        <div className="container py-5">
           <div className="row g-5">
             <div className="col-12 col-md-4 ">
               <div className="ticketcard shadow pb-0 rounded-bottom-5">

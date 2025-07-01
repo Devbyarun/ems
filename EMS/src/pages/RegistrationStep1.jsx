@@ -23,7 +23,7 @@ const Step1 = () => {
                     <h4>General Admission</h4>
                     <div>
                       <button className="border-0 rounded p-1 px-2 bg-dark-subtle text-body-secondary">
-                        +
+                        -
                       </button>
                       <input
                         className="inputcount border-0 text-center"
@@ -31,7 +31,7 @@ const Step1 = () => {
                         type="number"
                       />
                       <button className="border-0 rounded p-1 px-2 bg-dark-subtle text-body-secondary">
-                        -
+                        +
                       </button>
                     </div>
                   </div>
