@@ -1,0 +1,16 @@
+.event-hero {
+  /* height: 55vh; */
+  height: auto;
+  overflow: hidden;
+}
+
+.event-main img {
+  width: 100%;
+  /* object-fit: contain; */
+}
+.event-main {
+  background-image: url(../assets/bg/wave.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

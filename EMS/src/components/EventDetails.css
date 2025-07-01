@@ -1,0 +1,65 @@
+.cta-booking {
+  position: sticky;
+  top: 30px;
+}
+
+.tags {
+  background: gainsboro;
+}
+
+.partnerlogo {
+  width: 194px;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+body,
+html {
+  height: 100%;
+  background-color: white;
+}
+
+.logoslider {
+  overflow: hidden;
+  .slider {
+    animation: slidein 30s linear infinite;
+    white-space: nowrap;
+    .logos {
+      width: 100%;
+      display: inline-block;
+      margin: 0px 0;
+      .fab {
+        width: calc(100% / 5);
+        animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+      }
+    }
+  }
+}
+
+@keyframes slidein {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Media Quaries for mobile */
+
+@media (max-width: 576px) {
+  .partnerlogo {
+    width: 100px;
+    margin: 0 10px;
+    border-radius: 10px;
+  }
+}
