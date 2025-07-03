@@ -64,6 +64,25 @@ const UserLogin = () => {
                 Login
               </button>
             </form>
+            <div className="other-login-options d-flex flex-column py-5">
+              <p className="text-center">Or sign in with</p>
+              <p className="text-center">
+                By clicking Continue or the Apple, Google, or Facebook icons,
+                you agree to NISAU's{" "}
+                <a class="text-decoration-none text-primary" href="#">
+                  Terms of Service
+                </a>
+                {"  "}and{"  "}
+                <a class="text-decoration-none text-primary" href="#">
+                  Privacy Policy.
+                </a>
+              </p>
+              <div className="other-login-options">
+                <p className="text-center">
+                  Add Other Login options here like Google and Gmail
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

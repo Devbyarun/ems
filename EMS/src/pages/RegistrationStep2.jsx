@@ -31,7 +31,6 @@ const RegistrationStep2 = () => {
                 <div className="row g-3 ">
                   <div className="col-6 md-12">
                     <input
-                      for="ValidationCustom01"
                       className="px-3 py-2 w-100 "
                       type="text"
                       placeholder="First Name"
@@ -155,7 +154,7 @@ const RegistrationStep2 = () => {
                         for="ValidationCustom01"
                         className="px-3 py-2 w-100 "
                         type="text"
-                        placeholder="First Name"
+                        placeholder="University Name"
                         required
                         id="UniversitiesStuding"
                       />
@@ -199,14 +198,13 @@ const RegistrationStep2 = () => {
                     <label class="ms-1 mb-2" for="UniversitiesStuding">
                       Please leave your question for the speakers
                     </label>
-                    <input
-                      for="ValidationCustom01"
-                      className="px-3 py-2 w-100 "
-                      type="text"
-                      placeholder="First Name"
-                      required
+
+                    <textarea
+                      class="form-control px-3 py-2 w-100 border-dark"
                       id="UniversitiesStuding"
-                    />
+                      rows="3"
+                      placeholder="..."
+                    ></textarea>
                   </div>
                   <div class="col-12">
                     <button
