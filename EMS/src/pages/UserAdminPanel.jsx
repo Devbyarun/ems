@@ -6,21 +6,34 @@ const UserAdminPanel = () => {
     <>
       <div className="container-fluid user-dashboard">
         <div className="py-3">
-          {/* Mobile Navigation Toggle - More Descriptive */}
-          <button
-            className="btn btn-primary d-lg-none mb-3 w-100"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#sidebarMenu"
-            aria-controls="sidebarMenu"
-            aria-expanded="false"
-            aria-label="Toggle dashboard navigation"
-          >
-            <i className="bi bi-list me-2"></i> Dashboard Menu
-          </button>
+          {/* Header with logo and mobile toggle */}
+          <div className="d-flex justify-content-between align-items-center mb-3">
+            {/* Logo on the left */}
+            <div className="d-flex align-items-center">
+              <img
+                src="https://via.placeholder.com/150x50?text=Logo"
+                alt="NISAU EMS Logo"
+                className="img-fluid"
+                style={{ maxHeight: "50px" }}
+              />
+            </div>
+
+            {/* Mobile Navigation Toggle - Right aligned */}
+            <button
+              className="btn btn-primary d-lg-none"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#sidebarMenu"
+              aria-controls="sidebarMenu"
+              aria-expanded="false"
+              aria-label="Toggle dashboard navigation"
+            >
+              <i className="bi bi-list"></i>
+            </button>
+          </div>
 
           <div className="d-flex flex-column flex-lg-row align-items-start admin-panel-container">
-            {/* Sidebar Navigation - Improved with better labels */}
+            {/* Sidebar Navigation  */}
             <div
               className="offcanvas-lg offcanvas-start admin-sidebar"
               id="sidebarMenu"
@@ -140,7 +153,7 @@ const UserAdminPanel = () => {
               </div>
             </div>
 
-            {/* Main Content Area - Improved with better section organization */}
+            {/* Main Content Area */}
             <div
               className="tab-content flex-grow-1 w-100"
               id="v-pills-tabContent"
@@ -376,7 +389,7 @@ const UserAdminPanel = () => {
                 </div>
               </div>
 
-              {/* Events Tab - Improved with better accessibility */}
+              {/* Events Tab */}
               <div
                 className="tab-pane fade"
                 id="v-pills-events"
@@ -891,7 +904,7 @@ const UserAdminPanel = () => {
                 </div>
               </div>
 
-              {/* Tickets Tab - Improved with better organization */}
+              {/* Tickets Tab*/}
               <div
                 className="tab-pane fade"
                 id="v-pills-Tickets"
@@ -1312,7 +1325,7 @@ const UserAdminPanel = () => {
                 </div>
               </div>
 
-              {/* Payments Tab - Improved with better section organization */}
+              {/* Payments Tab*/}
               <div
                 className="tab-pane fade"
                 id="v-pills-payments"

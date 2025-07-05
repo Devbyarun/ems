@@ -8,10 +8,12 @@ import RegistrationStep2 from "./pages/RegistrationStep2";
 import Userlogin from "./pages/UserLogin";
 import Registration from "./pages/Registration";
 import UserAdminPanel from "./pages/UserAdminPanel";
+import PaymentSuccess from "./components/PaymentSuccess";
 
 const App = () => {
   return (
     <>
+      <PaymentSuccess />
       <Navbar1 />
       <UserAdminPanel />
       <Userlogin />

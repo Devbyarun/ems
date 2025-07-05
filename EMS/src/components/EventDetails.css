@@ -1,25 +1,25 @@
-/* .cta-booking {
+.cta-booking {
   position: sticky;
   top: 30px;
 }
 
 .tags {
   background: gainsboro;
-} */
+}
 
-/* .partnerlogo {
+.partnerlogo {
   width: 194px;
   margin: 0 10px;
   border-radius: 10px;
-} */
+}
 
-/* body,
+body,
 html {
   height: 100%;
   background-color: white;
-} */
+}
 
-/* .logoslider {
+.logoslider {
   overflow: hidden;
   .slider {
     animation: slidein 30s linear infinite;
@@ -34,51 +34,33 @@ html {
       }
     }
   }
-} */
+}
 
-/* @keyframes slidein {
+@keyframes slidein {
   from {
     transform: translate3d(0, 0, 0);
   }
   to {
     transform: translate3d(-100%, 0, 0);
   }
-} */
+}
 
-/* @keyframes fade-in {
+@keyframes fade-in {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
   }
-} */
+}
 
 /* Media Quaries for mobile */
 
-/* @media (max-width: 576px) {
+@media (max-width: 576px) {
   .partnerlogo {
     width: 100px;
     margin: 0 10px;
     border-radius: 10px;
   }
-} */
-
-/* New css */
-
-/* Custom CSS for the carousel */
-.partnerlogo {
-  max-height: 60px;
-  width: auto;
-  margin: 0 10px;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-  background-color: rgba(0, 0, 0, 0.2);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-}

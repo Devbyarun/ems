@@ -3,13 +3,13 @@ import React from "react";
 const Registration = () => {
   return (
     <>
-      <div className="container-fluid">
-        <div class="container-fluid  min-vh-100 d-flex align-items-center justify-content-center bg-light ">
-          <div class="row w-100 h-100">
+      <div className="container-fluid  bg-light ">
+        <div class="container w-100 w-md-75 min-vh-100 d-flex align-items-center justify-content-center">
+          <div class="row w-100  h-100">
             <div className="container d-flex justify-content-center align-items-center pb-5">
               <h1>NISAU EMS USER REGISTRATION</h1>
             </div>
-            <div class="col-md-8 mx-auto p-5 bg-white rounded-5 shadow-sm">
+            <div class="col-md-8 mx-auto px-4 py-4 bg-white rounded-5 shadow-sm">
               <form>
                 <div className="d-flex flex-row justify-content-center gap-3 mb-3 ">
                   <div className="w-100">
