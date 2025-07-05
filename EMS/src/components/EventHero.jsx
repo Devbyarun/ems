@@ -7,21 +7,50 @@ import "../index.css";
 const EventHero = () => {
   return (
     <>
-      <div className="event-main container-fluid py-4 py-md-5 ">
-        <div className="container d-flex md-d-column justify-content-center gap-3  ">
-          <div className="position-relative">
-            <div className="d-flex align-items-start flex-column gap-4 ">
-              <img
-                src={bg2}
-                alt=""
-                className="event-hero rounded-5 object-fit-cover"
-              />
-              <div className="position-absolute bottom-0 p-5  ">
-                <h5 className="text-white">Get started now</h5>
-                <h1 className="text-white">View our upcoming events here</h1>
-                <button className="mt-4 px-4 py-2 border rounded-2 fw-semibold fs-6 text-white bg-primary  ">
-                  Get Tickets
-                </button>
+      <div className="event-main container-fluid py-4 py-md-5">
+        <div className="container">
+          <div className="event-grid">
+            {/* Event Box 1 */}
+            <div className="event-box">
+              <div className="image-container">
+                <img
+                  src={bg2}
+                  alt="Event banner"
+                  className="event-hero w-100 rounded-5"
+                />
+                <div className="content-overlay p-3 p-md-4 p-lg-5">
+                  <h5 className="text-white overlay-subtitle mb-1 mb-md-2">
+                    Get started now
+                  </h5>
+                  <h2 className="text-white overlay-title mb-2 mb-md-3">
+                    View our upcoming events here
+                  </h2>
+                  <button className="btn btn-primary px-3 px-md-4 py-2 rounded-2 fw-semibold">
+                    Get Tickets
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            {/* Event Box 2 */}
+            <div className="event-box">
+              <div className="image-container">
+                <img
+                  src={bg2}
+                  alt="Event banner"
+                  className="event-hero w-100 rounded-5"
+                />
+                <div className="content-overlay p-3 p-md-4 p-lg-5">
+                  <h5 className="text-white overlay-subtitle mb-1 mb-md-2">
+                    Special Event
+                  </h5>
+                  <h2 className="text-white overlay-title mb-2 mb-md-3">
+                    Annual Conference
+                  </h2>
+                  <button className="btn btn-primary px-3 px-md-4 py-2 rounded-2 fw-semibold">
+                    Register Now
+                  </button>
+                </div>
               </div>
             </div>
           </div>
